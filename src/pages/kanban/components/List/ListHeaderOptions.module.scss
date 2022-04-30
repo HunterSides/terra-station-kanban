@@ -1,0 +1,12 @@
+@import "mixins";
+
+.editbutton {
+  margin-left: 22px;
+  font-weight: var(--normal);
+}
+.taskbutton {
+  font-weight: var(--bold);
+}
+.deletebutton {
+  font-weight: var(--normal);
+}

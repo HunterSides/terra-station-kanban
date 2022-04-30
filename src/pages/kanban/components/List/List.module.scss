@@ -1,0 +1,30 @@
+@import "mixins";
+
+.label {
+  background: var(--bg-muted);
+  border: var(--border-width) solid var(--card-border);
+  border-radius: var(--border-radius);
+  width: 122px;
+  font-size: 13px;
+  font-weight: var(--bold);
+  text-align: center;
+  line-height: 2;
+  padding: 2px 4px;
+
+  @include mobile {
+    display: flex;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  }
+}
+.disabled {
+  @include disabled;
+}
+
+.taskbutton {
+  @include flex(space-between);
+  border-top: 1px solid var(--card-border);
+  padding: 20px 0px 0px 0px;
+  font-weight: var(--normal);
+}

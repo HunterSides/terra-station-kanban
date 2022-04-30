@@ -1,0 +1,18 @@
+@import "mixins";
+
+.task {
+  border-top: 1px solid var(--card-border);
+}
+.name {
+  @include flex(space-between);
+  font-weight: var(--bold);
+  color: var(--button-primary-bg);
+}
+
+.description {
+  @include flex(space-between);
+  color: #ffffff;
+  font-size: var(--font-size-small);
+  font-weight: var(--normal);
+  word-break: break-all;
+}
