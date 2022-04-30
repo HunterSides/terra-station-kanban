@@ -1,6 +1,6 @@
 # Terra Station Kanban
 
-![Banner](Kanban.png)
+![Banner](Kanban.PNG)
 
 **Terra Station Kanban** Is a draggable kanban board purposefully built to be a seemlessly integration into the [Terra Station](https://github.com/terra-money/station) architecture. It follows design patterns and technolgies used as a means to be reusable and updateable by anyone familiar with the architecture.
 
